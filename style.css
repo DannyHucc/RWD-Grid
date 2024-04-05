@@ -43,3 +43,16 @@ body {
     min-height: 100px;
     line-height: 100px;
 }
+
+@media screen and (min-width:576px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .one,
+    .four,
+    .seven {
+        grid-column: 1 / 3;
+    }
+}
